@@ -1,0 +1,184 @@
+\documentclass[twoside]{article}
+\usepackage[b4paper, margin=14.82mm, includehead]{geometry}
+\usepackage{amsmath}
+\usepackage{changepage}
+\usepackage{contour}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{hanging}
+\usepackage{harmony}
+\usepackage{multicol}
+\usepackage{musicography}
+\usepackage{musixtex}
+\usepackage{ulem}
+\usepackage{wasysym}
+\setmainfont[
+ BoldFont={ACADEMICO-BOLD.otf}, 
+ ItalicFont={ACADEMICO-ITALIC.otf},
+ BoldItalicFont={ACADEMICO-BOLDITALIC.otf}
+ ]{ACADEMICO-REGULAR.otf}
+\setlength{\columnsep}{1cm}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}%clear all headers and footers
+\fancyhead[LE]{\fontsize{10pt}{10pt}\selectfont \slshape\rightmark}
+\fancyhead[RO]{\fontsize{10pt}{10pt}\selectfont \slshape\leftmark}
+\fancyhead[LE,RO]{\vspace{-0.4mm}\thepage}
+\setcounter{page}{86}
+
+\newcommand\dynmark[1]{\scalebox{0.9}{#1}{\kern1pt}}
+\newcommand{\nobarfrac}{\genfrac{}{}{0pt}{}}
+
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\begin{document}
+\begin{center}
+\textbf{\huge{Editorial Commentary}}
+\end{center}
+
+This is an edition based on an (incomplete) orchestration by Lili Boulanger found in manuscript BNF MS-19437 (OM), and the edition for voice and piano published by Ricordi in 1919 (VP). The orchestration, in Nadia Boulanger's hand, is tentatively attributed to Nadia in the BNF listing. However, only attributions to Lili are found in the score itself, with a date within Lili's lifetime of 1914--1916. In addition, Nadia was involved in the editing and publishing of other works by Lili (including the edition for voice for piano), also without credit to herself, and Nadia was known to have a feeling of unworthiness with regard to Lili's music. Therefore, the orchestration seems very unlikely to be Nadia's work and should be considered Lili's work.
+
+This edition is primarily based on OM, excepting the voice part, which is primarily based on VP, as VP is generally more complete with expressive markings. Ossias are added where OM differs significantly from VP. Items in square brackets or dashed are editorial. The text underlay is taken from the 1916 Mercure de France publication of Francis Jammes' \mbox{\textit{Clairières dans le ciel}}. Noteworthy errors and discrepancies are listed below. Those of relevance to the vocal part are in bold.
+
+\begin{hangparas}{15pt}{1}
+\begin{multicols}{2}
+
+A cover page of OM numbers the movements in the order of VP. The order of VP is therefore the likely intended order, but was left incomplete.
+
+``Elle était descendue'' lists the following string numbers:\\
+\hspace*{15pt}Violon I : 6 pupitres\\
+\hspace*{15pt}Violon II : 5 pupitres\\
+\hspace*{15pt}Alto : 4 pupitres\\
+\hspace*{15pt}Violoncelle : 4 pupitres\\
+\hspace*{15pt}Contrebasse : 2 pupitres\\
+However, directions such as ``2 pup.''\ and ``3\textsuperscript{e} pup.''\ for the contrabasses suggest that (at least) 3 stands is more likely. \mbox{``Au pied de mon lit''} ends with a division between 5 stands, perhaps meant instead to be between 5 players. In addition, \mbox{``Demain fera un an''} distinguishes ``4 pup.''\ and ``tous'' for the violas and the cellos. These numbers should thus be taken as minimums.
+
+The horns in OM have bass clef transposing up a fourth. This has been changed to modern practice of transposing down a fifth.
+
+\myuline{Elle était descendue}
+
+\textbf{Measure 1 is not in VP.}
+
+\mbox{6, Cl. 1}: Corrected from F♯-D♮ to E♮-C♮
+
+\textbf{\mbox{13}: The \dynmark{\mf} in OM seems overwhelming for the voice, and also rather sudden given the previous measure's \dynmark{\p} dynamic. In VP, the \dynmark{\mf} occurs one measure later after a crescendo. Some wind parts seem awkward at a quiet dynamic, so it seems appropriate to raise the voice's dynamic, as opposed to using dynamics similar to VP.}
+
+\mbox{15, Vl. II}: First division has last 8\textsuperscript{th} notes of beams crossed out.
+
+\mbox{22, Hpe. 1}: D on beat 3 corrected to E
+
+``Enchaînez'' is written at the end, but it is likely supposed to lead to the unorchestrated ``Elle est gravement gaie,'' as in VP, and not the adjacent ``Nous nous aimerons tant.''
+
+\myuline{Nous nous aimerons tant}
+
+\mbox{6, Vlc}: The upper voice is indicated with ``Vc solo,'' leaving only one voice written for the others. Without ``unis'' indicated, it is unclear if both divisions play. Only the upper division has an outgoing slur on the previous system.
+
+\mbox{22, Vl. I.II}: Vl. I's \textit{``cresc.''}\ line continues until beat 3 of measure 23, but it should likely end at an \dynmark{\ff} with the other instruments. Vl. II's dynamics are adjusted similarly.
+
+\mbox{31, Vl. I}: Only 2 noteheads are written without an indication of division. Likely, the second division should proceed to A♭.
+
+\myuline{Deux ancolies}
+
+\mbox{3, Alto}: The second division is written a third too high in OM.
+
+\mbox{6--8}: It is unclear how these system level hairpins should apply. These are not found in VP.
+
+\mbox{6, Cl. 1}: Final 8\textsuperscript{th} note C♯ corrected to A
+
+\mbox{10, Fl. 1}: G corrected to F
+
+\textbf{\mbox{11}: In OM, the voice has a square fermata at the end of the measure. VP has a breath mark. The instrumental lines make a pause awkward.}
+
+\textbf{\mbox{13}: In OM, the voice has a square fermata at the end of the measure. VP has no pause indicated. A pause here is more plausible than at 11.}
+
+\mbox{23, Cors}: There is a decrescendo hairpin on beat 4. However, the crescendo line continues through it.
+
+\textbf{\mbox{23, Voix}: E(♮) corrected to E♭}
+
+\mbox{28, Vl. II}: First division B♭ corrected to B(♮)
+
+\columnbreak
+\myuline{Si tout ceci n’est qu’un pauvre rêve}
+
+The first page in OM lacks player indications for the woodwinds, so it unclear which instruments play when voices merge.
+
+\mbox{17--18, Timb}: Measure 17 appears to be an E with some marking in the G space; measure 18 appears to be an F, with some unclear marking.
+These measures should likely both be F.
+
+\mbox{24--25, Vl. I.II}: Inordinately fast rhythms have been adjusted.
+
+\mbox{33--35, Cors}: ``3\textsuperscript{e}'' is indicated but it is more practical for Cor 4 to insert the mute in time.
+
+\mbox{37, Vl. I}: ``sourdines'' crossed out by second hand
+
+\myuline{Au pied de mon lit}
+
+\mbox{1--9, Cordes}: Slurs are originally over each measure, and then overwritten with slurs over each phrase.
+
+\mbox{11}: OM has ``Large.'' VP has ``A tempo.''
+
+\mbox{14, 16, Fls}: The dotted quarters and groups of three 16\textsuperscript{th}s are not marked with tuplets. The 16\textsuperscript{th}s should likely be the same speed as the following explicitly marked 9-plet.
+
+\textbf{\mbox{19, Chant}: ``des'' as in the original text is ``les'' in OM and VP.}
+
+\textbf{\mbox{20--24, Chant}: OM is written an octave lower than VP.}
+
+\myuline{Par ce que j’ai souffert}
+
+\textbf{Measures 1--2 are not in VP.}
+
+\mbox{10--11, Cors}: The part labeled ``3\textsuperscript{o}' is tied to a note labeled ``4\textsuperscript{o}'' on the next system. A dovetail note is added to Cor 3. 
+
+\mbox{16--}: It is unclear how the system level dynamics should apply as they contradict some instrument level dynamics. They are applied to individual instruments as seems appropriate. Measure 16 has \dynmark{\mf}. 18 has \dynmark{\p} with a crescendo hairpin. 19--20 has \dynmark{\f} with a crescendo to \dynmark{\ff}. 21 has \dynmark{\pp}. 22 and 24 have crescendo hairpins. 25 has \dynmark{\pp}. 26 has \dynmark{\p}. 29--30 has a crescendo hairpin to \dynmark{\f} at 31. 32 has \dynmark{\pp}. 36 has \dynmark{\p} \textit{mais intense}. 37--38 has a crescendo hairpin. 42--44 has a crescendo hairpin to \dynmark{\ff} at 45. 47 has \dynmark{\fff}. 51--54 has \textit{dim.\ molto} through \dynmark{\pp} at the entrance of célesta to \dynmark{\ppp} at 55.
+
+\mbox{16--20, Vlc}: It is unclear if the div.\ en 3 continues through 20 (with 2.3 unis) or if this should be div.\ en 2.
+
+\mbox{17, Fl. 2}:  D♯ corrected to C♯
+
+\mbox{20, Vl. II}: Second division final note corrected from G to E.
+
+\mbox{24}: ``rit.''\ is crossed out in OM.
+
+\mbox{31, Vl. II}: 1\textsuperscript{er} pup.\ has the notes of the first and third divisions, but a typical division would have both players on first division.
+
+\textbf{Measures 41 and beyond are not in VP.}
+
+\mbox{45, C.A}: F♭ third note corrected to F(♮)
+
+\mbox{55, Cordes}: Some natural harmonics here are impossible to play. Artificial harmonics have been suggested.
+
+\myuline{Je garde une médaille d’elle}
+
+\textbf{Measure 1 is not in VP.}
+
+\mbox{10, Vl. I}: Lower note of the upper division is unclear, if any. The stem appears to go down to a D but there is no notehead there.
+
+\myuline{Demain fera un an}
+
+\mbox{8}: System dynamic of \dynmark{\p} \textit{sourd}
+
+\mbox{54}: VP has a change to cut time. ``battu en 2'' is added accordingly.
+
+\mbox{56, Fl. 3}: ``col 1\textsuperscript{o}'' is written but the unprepared high C seems unwieldy and is lowered an octave.
+
+\mbox{109, Vl. I}: The division is unclear. There are double noteheads with no indication, followed by single noteheads in the second half of the measure with ``la moitié'' penciled in.
+
+\mbox{119, Cordes}: It is unclear if the solos are with mute. ``sourd.'' is not explicitly written on the solo staves, but ``sourd.'' is also missing on some of the staves on the next system.
+
+\mbox{122}: System level decrescendo hairpin to \dynmark{\ppp}. Seems likely to only apply to upper strings 
+
+
+\end{multicols}
+
+\end{hangparas}
+
+\end{document}
